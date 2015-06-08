@@ -1,4 +1,5 @@
 <?php
+/* Hola esto es unas prueba*/
  include("conexion.php");
   SESSION_START();
   $Cedula=$_SESSION['Cedula'];
