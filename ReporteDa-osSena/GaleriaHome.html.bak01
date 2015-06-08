@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Pagina Oficial</title>
+	<link rel="stylesheet" href="css/stylo2.css">
+
+</head>
+
+<body>
+	<div><h1>Reporte de daños SENA CDTCI</h1> <img class="logo" src="imagenes/sena.png" alt=""></div>
+	<header>
+		<figure>
+			<img src="imagenes/Banner-Reporte.jpg" alt="">
+		</figure>
+	</header>
+		<nav>
+			<ul>
+				  <li><a href="PaginaInicio00.php"><img src="imagenes/BotonIhome.jpg"></a></li>
+					<li><a href="GaleriaHome.html"><img src="imagenes/BotonIGallery.jpg"></a></li>
+					<li><a href=""><img src="imagenes/BotonIPersonal.jpg"></a></li>
+					<li><a href=""><img src="imagenes/BotonINosotrosl.jpg"></a></li>
+				
+			</ul>
+		</nav>
+						
+	   <section id="contenedor">
+		 
+
+
+
+
+
+
+	    </section>
+	<footer>
+		<p>CDTCI</p>
+	</footer>
+	 
+</body>
+</html>

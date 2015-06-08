@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Principal</title>
+</head>
+<body>
+	<form action="Pagina1.php" method="POST">
+	  <input type="text" name="nombre">
+	  <input type="text" name="lastname">
+	  <input type="submit" name="boton">
+	</form>
+	<?php
+	   if(isset($_POST['boton'])) {
+	   	       require("Pagina1.php");
+	   	       	   }
+	    ?>
+</body>
+</html>

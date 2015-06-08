@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Esto es un formulario</title>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+	<form action="Recaptcha.php" method="POST">	
+		<!--<input type="password" pattern="[A-Z]+.+[0-9]{4,}" tittle="Debe ser algo similar que comienze por Mayuscula un caracter (@ - .) y los numero del 1-10" required>
+		<input type="text" pattern="^[A-Z]{1,10}[*/]{1,}\d{4,12}$">
+		<input type="text" pattern="/^([a-z]+[0-9]+)|([0-9]+[a-z]+)/i">
+		<input type="text" name="nombre" id="nombre" pattern="[A-Za-z0-9!?-#{}]{10,12}"/>
+		<input type="email" name="">
+		<table>
+			<tr>
+				<td>Ingrese el codigo><img src="Captcha.php"></td>
+				<td><input type="text" name="Codigo"></td>
+				<div class="g-recaptcha" data-sitekey="" data-type="image"></div>-->
+				<div id="Captcha" class="g-recaptcha" data-sitekey="6LdnRgcTAAAAAMElKGuFlFWYvEm6We5vWGtM2Y4z" data-type="image" required></div>
+				<input type="submit" value="Validar">
+			</tr>
+		</table>
+
+	<input type="submit">
+	</form>
+
+</body>
+</html>
